@@ -1,7 +1,8 @@
 # BacSeq : An automated pipeline for whole genome sequence
 # Introduction
 ### An automated pipeline for whole genome sequence
-# Program that included in this project
+# Workflows
+![image](https://mecob.psu.ac.th/BacSeq_Software/img/workflow.png)
 * Quality Control
     * FastQC
     * MultiQC
