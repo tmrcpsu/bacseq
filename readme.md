@@ -66,9 +66,9 @@ source run_BacSeq.sh
 ### Output are stored in Software/output directory
 
 # Author
-* Komwit Surachat
+* Asst. Prof. Dr. Komwit Surachat
     * Email : komwit.s@psu.ac.th
 * Kongpop Jeenkeawpiam
     * Email : kongpop.je@gmail.com
-### Developed by Molecular Evolution and Computational Biology Research Unit.
+### Developed by Molecular Evolution and Computational Biology Research Unit. [MECoB](https://mecob.psu.ac.th)
 ### Prince of Songkla University, Thailand
