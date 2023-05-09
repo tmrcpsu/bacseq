@@ -19,6 +19,7 @@
             <artifactId>AbsoluteLayout</artifactId>
             <version>SNAPSHOT</version>
         </dependency>
+        
     </dependencies>
     <build>
     <plugins>
@@ -35,7 +36,7 @@
   <configuration>
     <archive>
       <manifest>
-        <mainClass>PBGA.BacSeq</mainClass>
+        <mainClass>BacSeq.BacSeq</mainClass>
       </manifest>
     </archive>
     <descriptorRefs>
