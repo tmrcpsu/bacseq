@@ -10,6 +10,7 @@
     * Fastp
 * Assembly
     * SPAdes
+    * Unicycler
 * Quality assessment
     * Quast
 * Completeness assessment
