@@ -34,7 +34,7 @@
 ## Supported OS
 ### BacSeq is being developed and tested on UBUNTU 18.04
 ## Third-party components
-### A full installation of BacSeq requires conda. If conda has been installed you can skip this part.
+### A full installation of BacSeq requires conda. If conda has been installed, you can skip this part.
 * Conda
   * [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 ```bash
