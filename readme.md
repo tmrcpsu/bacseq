@@ -7,7 +7,7 @@
     * FastQC
     * MultiQC
 * Trimming
-    * Fastp
+    * fastp
 * Assembly
     * SPAdes
     * Unicycler
