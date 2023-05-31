@@ -40,17 +40,7 @@
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
-## Manual installation (without source code)
-```bash
-wget 'https://mecob.psu.ac.th/BacSeq_Software/BacSeq.zip'
-unzip BacSeq.zip -d BacSeq
-cd BacSeq
-source install.sh
-# Run program with below code
-source run_BacSeq.sh
-```
-
-## Linux (with JAVA source code)
+## Linux (Tested on Ubuntu 18.04)
 ### Run this code in your terminal.
 ```bash
 git clone https://github.com/mecobpsu/bacseq.git
