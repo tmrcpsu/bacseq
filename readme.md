@@ -59,26 +59,26 @@ source run_BacSeq.sh
 
  <div style="text-align: center;font-size:24px">2.Select directory that include with this files pattern </div>
 
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/file_example.png)
+![image](https://i.imgur.com/Vn5y0A8.png)
 
 <div style="text-align: center;font-size:24px">3.De novo assembly page </div>
 
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/2.png)
+![image](https://i.imgur.com/1t0KTuY.png)
 
 <div style="text-align: center;font-size:24px">4.Downstream analysis page </div>
 
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/3.png)
+![image](https://i.imgur.com/fIufJvV.png)
 
 <div style="text-align: center;font-size:24px">5.Comparative analysis page </div>
 
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/4.png)
+![image](https://i.imgur.com/53cnksR.png)
 
 <div style="text-align: center;font-size:24px">6.Visualization and report page </div>
 
 * Buttown will be enable to click when each program run successfully.
 * When user click the button in this page, the program will open an output directory.
 
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/5.png)
+![image](https://i.imgur.com/V3OHX7O.png)
 
 # Input
 ### Files that contains filename_1.fastq.gz and filename_2.fastq.gz 
