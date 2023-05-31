@@ -50,7 +50,7 @@ source install.sh
 source run_BacSeq.sh
 ```
 
-## Ubuntu (with JAVA source code)
+## Linux (with JAVA source code)
 ### Run this code in your terminal.
 ```bash
 git clone https://github.com/mecobpsu/bacseq.git
