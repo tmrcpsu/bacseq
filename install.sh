@@ -52,7 +52,7 @@ pip install seaborn
 R --slave -e "install.packages('heatmaply', repos='https://cran.r-project.org')"
 
 #Another installation
-cpanm -f Bio::Roary
+# cpanm -f Bio::Roary
 #Create dir and download files
 bacseq_dir=$(pwd)
 mkdir ${bacseq_dir}/Software
@@ -93,11 +93,11 @@ rm -rf fastqc_v0.11.9.zip
 cd FastQC
 chmod 777 *
 #Download scripts from mecob
-cd ${bacseq_dir}/Software/biotools
-wget 'https://mecob.psu.ac.th/BacSeq_Software/scripts.zip'
+cd ${bacseq_dir}
 unzip scripts.zip
+mv scripts/ ${bacseq_dir}/Software/biotools/
 rm -rf scripts.zip
-cd scripts
+cd ${bacseq_dir}/Software/biotools/scripts/
 chmod 777 * 
 
 #SPAdes
@@ -110,11 +110,11 @@ rm -rf SPAdes-3.15.4-Linux
 cd SPAdes
 chmod 777 *
 
-cd ${bacseq_dir}/Software/biotools
-wget 'https://mecob.psu.ac.th/BacSeq_Software/CRISPRCasFinder.zip'
+cd ${bacseq_dir}
 unzip CRISPRCasFinder.zip
+mv CRISPRCasFinder/ ${bacseq_dir}/Software/biotools/
 rm -rf CRISPRCasFinder.zip
-cd CRISPRCasFinder
+cd ${bacseq_dir}/Software/biotools/CRISPRCasFinder/
 source installer_UBUNTU.sh
 cd ${bacseq_dir}/Software/biotools/dbcan_db \
     && wget http://bcb.unl.edu/dbCAN2/download/CAZyDB.09242021.fa && diamond makedb --in CAZyDB.09242021.fa -d CAZy \
@@ -125,11 +125,12 @@ cd ${bacseq_dir}/Software/biotools/dbcan_db \
     && wget http://bcb.unl.edu/dbCAN2/download/Databases/stp.hmm && hmmpress stp.hmm 
 
 
-cd ${bacseq_dir}/Software/biotools/
-wget 'https://mecob.psu.ac.th/BacSeq_Software/roary_plots.zip'
+cd ${bacseq_dir}
 unzip roary_plots.zip
+mv roary_plots/ ${bacseq_dir}/Software/biotools/
 rm -rf roary_plots.zip
-chmox +x roary_plots/*
+cd ${bacseq_dir}/Software/biotools/
+chmod +x roary_plots/*
 cd ${bacseq_dir}/Software/biotools/
 wget 'http://www.microbesonline.org/fasttree/FastTree'
 chmod 777 FastTree
