@@ -1,6 +1,6 @@
 # BacSeq: A user-friendly automated pipeline for whole-genome sequence analysis of bacterial genomes
 # Introduction
-### BacSeq is all-in-one pipeline for bacterial genome analysis. The software contained several Bioinformatics tools for quality control of raw reads, genome assembly and quality assesments, genome annotation, downstream analysis, and comparative genomic analysis. BacSeq is available for both short-read and long-read sequencing data and the visualization and reports will be exhibited on the html page.
+### BacSeq is all-in-one pipeline for bacterial genome analysis. The software contained several Bioinformatics tools for quality control of raw reads, genome assembly and quality assesments, genome annotation, downstream analysis, and comparative genomic analysis. BacSeq is available for both short-read and long-read sequencing data and the visualization and reports will be exhibited on the HTML page.
 # Workflows
 ![image](https://mecob.psu.ac.th/BacSeq_Software/img/workflow.png)
 * Quality Control
@@ -94,5 +94,5 @@ source run_BacSeq.sh
     * E-mail: arnonchukamnerd@hotmail.com
 * Kongpop Jeenkeawpiam
     * E-mail: kongpop.je@gmail.com
-### Developed by Molecular Evolution and Computational Biology Research Unit. [MECoB](https://mecob.psu.ac.th)
+### Developed by Genome InFormaTics (GIFT)
 ### Prince of Songkla University, Thailand
