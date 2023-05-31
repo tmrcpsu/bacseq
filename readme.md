@@ -55,7 +55,7 @@ source run_BacSeq.sh
 * Quick mode will be running all steps in the pipeline.
 * Advanced mode will be running the programs according to your selection.
  
-![image](https://mecob.psu.ac.th/BacSeq_Software/img/1.png)
+![image](https://i.imgur.com/zM3C4xN.png)
 
  <div style="text-align: center;font-size:24px">2.Select directory that include with this files pattern </div>
 
