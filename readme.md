@@ -1,6 +1,6 @@
 # BacSeq: A user-friendly automated pipeline for whole-genome sequence analysis of bacterial genomes
 # Introduction
-### BacSeq is all-in-one pipeline for bacterial genome analysis. The software contained several Bioinformatics tools for quality control of raw reads, genome assembly and quality assesments, genome annotation, downstream analysis, and comparative genomic analysis. BacSeq is available for both short-read and long-read sequencing data and the visualization and reports will be exhibited on the HTML page.
+### BacSeq is an all-in-one pipeline for bacterial genome analysis. The software contained several Bioinformatics tools for quality control of raw reads, genome assembly and quality assessments, genome annotation, downstream analysis, and comparative genomic analysis. BacSeq is available for both short-read and long-read sequencing data and the visualization and reports will be exhibited on the HTML page.
 # Workflows
 ![image](https://i.imgur.com/i1BZsgh.png)
 * Quality Control
@@ -46,7 +46,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 git clone https://github.com/mecobpsu/bacseq.git
 cd BacSeq
 source install.sh
-# Run program with a code below
+# Run the program with a code below
 source run_BacSeq.sh
 ```
 # Tutorial
@@ -75,22 +75,22 @@ source run_BacSeq.sh
 
 <div style="text-align: center;font-size:24px">6.Visualization and report page </div>
 
-* Buttown will be enable to click when each program run successfully.
-* When user click the button in this page, the program will open an output directory.
+* Button will be enabled to click when each program runs successfully.
+* When the user clicks the button on this page, the program will open an output directory.
 
 ![image](https://i.imgur.com/V3OHX7O.png)
 
 # Input
 ### Files that contains filename_1.fastq.gz and filename_2.fastq.gz 
-### Do not use files contains filename_R1.fastq.gz or filename_001.fastq.gz
+### Do not use files containing filename_R1.fastq.gz or filename_001.fastq.gz
 
 # Output
-### Outputs are stored in Software/output directory
+### Outputs are stored in the software/output directory
 
 # Authors
-* Asst. Prof. Dr. Komwit Surachat
+* Komwit Surachat
     * E-mail: komwit.s@psu.ac.th
-* Dr. Arnon Chukamnerd
+* Arnon Chukamnerd
     * E-mail: arnonchukamnerd@hotmail.com
 * Kongpop Jeenkeawpiam
     * E-mail: kongpop.je@gmail.com
