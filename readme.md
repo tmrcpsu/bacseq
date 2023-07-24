@@ -44,7 +44,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ### Run this code in your terminal.
 ```bash
 git clone https://github.com/mecobpsu/bacseq.git
-cd BacSeq
+cd bacseq
 source install.sh
 # Run the program with a code below
 source run_BacSeq.sh
